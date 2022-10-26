@@ -6,8 +6,8 @@
 
 <h3>Farenheit to Celsius </h3>
 
-<p>Accessing a function without () will return the function definition instead of the function result:</p>
-<p id="f"></p>
+<p>CLick button to input a farenheit tempature</p>
+<p id="f" C ></p>
 
 <script>
 function toCelsius() {
