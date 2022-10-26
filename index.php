@@ -8,11 +8,12 @@
 <p id="f"></p>
 
 <script>
-function toCelsius(f) {
-  return (5/9) * (f-32);
+function toCelsius() {
+	var f = prompt("Please enter a number", "1");
+	document.getElementById("answer").innerHTML =  (5/9) * (f-32);
 }
-document.getElementById("f").innerHTML = toCelsius;
 </script>
-
+<p> id="answer"</p>
+<button onclick="toCelsius()">"Button"</button>
 </body>
 </html>
