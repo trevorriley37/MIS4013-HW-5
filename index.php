@@ -13,7 +13,7 @@ function toCelsius() {
 	document.getElementById("answer").innerHTML =  (5/9) * (f-32);
 }
 </script>
-<p> id="answer"</p>
+<p id="answer"></p>
 <button onclick="toCelsius()">"Button"</button>
 </body>
 </html>
