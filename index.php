@@ -5,7 +5,7 @@
 <h2>JavaScript Functions</h2>
 
 <p>Accessing a function without () will return the function definition instead of the function result:</p>
-<p id="demo"></p>
+<p id="f"></p>
 
 <script>
 function toCelsius(f) {
