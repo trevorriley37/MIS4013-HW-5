@@ -6,7 +6,7 @@
 
 <h3>Farenheit to Celsius </h3>
 
-<p>CLick button to input a farenheit tempature</p>
+<p>Click button to input a farenheit tempature</p>
 <p id="f" C ></p>
 
 <script>
@@ -17,5 +17,43 @@ function toCelsius() {
 </script>
 <p id="answer"></p>
 <button onclick="toCelsius()">"Button"</button>
+
+
+
+
+<p>Click to call a function that outputs "Hello World":</p>
+
+<button onclick="myFunction()">Click me</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+}
+</script>
+
+
+<P> Greet with name function <p>
+
+
+<script>
+
+ //program to print the text
+//declaring a function
+
+
+function greet(name) {
+    console.log("Hello " + name + ":)");
+}
+
+// variable name can be different
+let name = prompt("Enter a name: ");
+
+// calling function
+greet(name);
+
+
+</script>
 </body>
 </html>
