@@ -38,27 +38,23 @@ function myFunction() {
 
 <script>
 
- //program to print the text
-//declaring a function
+ 
 
 
-function greet(name) {
-	let name = prompt("Enter a name: ");
+function greet() {
+	var name = prompt("Enter a name: ");
     let greeting = ("Hello " + name + ":)");
 	alert(greeting)
 }
 
-// variable name can be different
 
-
-// calling function
  
 
 
 </script>
 
 
-<button onclick="greet(name)">Greet name function</button>
+<button onclick="greet()">Greet name function</button>
 
 <script>
 
