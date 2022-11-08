@@ -71,8 +71,7 @@ function showMessage() {
 function basicaddition(){
 	let x= 3
 	let y= 3
-
-	alert("3 + 3 = "x+y)
+	alert("3 + 3 = "x+y);
 }
 
 </script>
