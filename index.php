@@ -72,7 +72,7 @@ function basicaddition(){
 	let x= 3
 	let y= 3
 	let addition = x+y
-	let show = ("3 +3" + addition)
+	let show = ("3 +3 = " + addition)
 	alert(show);
 }
 
