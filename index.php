@@ -44,13 +44,16 @@ function myFunction() {
 
 
 function greet(name) {
-    alert("Hello " + name + ":)");
-}
+    
+
 
 // variable name can be different
 let name = prompt("Enter a name: ");
 
 // calling function
+
+alert("Hello " + name + ":)");
+}
  
 
 
