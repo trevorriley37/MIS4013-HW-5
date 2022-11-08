@@ -51,11 +51,13 @@ function greet(name) {
 let name = prompt("Enter a name: ");
 
 // calling function
- greet(name);
+ 
 
 
 </script>
 
+
+<button onclick="greet(name)">Greet name function</button>
 
 <script>
 
