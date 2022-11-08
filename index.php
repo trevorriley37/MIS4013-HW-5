@@ -44,7 +44,7 @@ function myFunction() {
 
 
 function greet(name) {
-    console.writeline("Hello " + name + ":)");
+    console.log("Hello " + name + ":)");
 }
 
 // variable name can be different
@@ -55,5 +55,18 @@ let name = prompt("Enter a name: ");
 
 
 </script>
+
+
+<script>
+
+function showMessage() {
+  let message = "Hello, I'm JavaScript!"; // local variable
+
+  alert( message );
+}
+
+</script>
+
+<button onclick="showMessage()">Show message function</button>
 </body>
 </html>
