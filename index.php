@@ -34,7 +34,6 @@ function myFunction() {
 </script>
 
 
-<P> Greet with name function <p>
 
 
 <script>
@@ -44,16 +43,14 @@ function myFunction() {
 
 
 function greet(name) {
-    
-
+    let greeting = ("Hello " + name + ":)");
+	alert(greeting)
+}
 
 // variable name can be different
 let name = prompt("Enter a name: ");
 
 // calling function
-
-alert("Hello " + name + ":)");
-}
  
 
 
