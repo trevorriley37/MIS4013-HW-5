@@ -66,6 +66,18 @@ function showMessage() {
 
 </script>
 
+
+<script>
+function basicaddition(){
+	let x= 3
+	let y= 3
+
+	alert("3 + 3 = "x+y)
+}
+
+</script>
 <button onclick="showMessage()">Show message function</button>
+
+<button onclick="basicaddition()">What is 3+3?</button>
 </body>
 </html>
