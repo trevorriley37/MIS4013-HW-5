@@ -44,7 +44,7 @@ function myFunction() {
 
 
 function greet(name) {
-    console.log("Hello " + name + ":)");
+    alert("Hello " + name + ":)");
 }
 
 // variable name can be different
